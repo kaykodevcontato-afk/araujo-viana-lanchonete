@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fce7e8">
+  <meta name="description" content="Araújo Viana Lanchonete — salgados, tortas e bolos com um toque especial de carinho. Conheça nosso cardápio e monte seu pedido.">
+  <title>Araújo Viana | Lanchonete</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="announcement"><span class="heart-symbol">♥</span> Do nosso cantinho para o seu dia, com muito carinho <span class="heart-symbol">♥</span></div>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a href="#inicio" class="header-brand" aria-label="Araújo Viana Lanchonete — início">
+        <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 60 60" fill="none"><path d="M15.1 37.4C7.2 31.9 10.7 20.4 19.8 20c2.7-10.8 17.9-11 20.6-.1 9.1.6 12.8 11.8 4.6 17.3V47H15.1v-9.6Z" fill="#fff9f2" stroke="#672e22" stroke-width="2.8" stroke-linejoin="round"/><path d="M15 40.4V48h30v-7.6" stroke="#672e22" stroke-width="2.8" stroke-linecap="round"/><path d="M29.9 30.9c-2-3.8-8.4-2.5-8.4 2.1 0 4 8.4 8.8 8.4 8.8s8.4-4.8 8.4-8.8c0-4.6-6.4-5.9-8.4-2.1Z" fill="#df7085"/></svg></span>
+        <span class="brand-text"><strong>Araújo Viana</strong><small>LANCHONETE</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a class="nav-link active" href="#inicio">Início</a>
+        <a class="nav-link" href="#cardapio">Cardápio</a>
+        <a class="nav-link" href="#sobre">Nossa essência</a>
+        <a class="nav-link" href="#encomendas">Encomendas</a>
+      </nav>
+      <button class="btn btn-cocoa header-order" type="button" data-open-cart aria-label="Abrir meu pedido">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 8H6a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a3 3 0 0 0-3-3h-1M7 8a5 5 0 0 1 10 0M7 8v4m10-4v4"/></svg>
+        Meu pedido <span class="cart-count" data-cart-count>0</span>
+      </button>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="mobile-nav" aria-expanded="false" id="menu-toggle"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação para celular" hidden>
+      <a href="#inicio">Início</a><a href="#cardapio">Cardápio</a><a href="#sobre">Nossa essência</a><a href="#encomendas">Encomendas</a>
+      <button type="button" data-open-cart>Ver meu pedido <span data-cart-count>0</span></button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <span class="hero-decoration hero-decoration-one" aria-hidden="true"></span><span class="hero-decoration hero-decoration-two" aria-hidden="true"></span>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <div class="hero-emblem" aria-hidden="true"><svg viewBox="0 0 160 126" fill="none"><path d="M33 83C11 69 22 36 47 36 55 5 102 4 112 36c27-3 43 29 16 47v26H33V83Z" fill="#fff9f2" stroke="#652b20" stroke-width="5" stroke-linejoin="round"/><path d="M34 101v10h94v-10M65 83v18m30-18v18" stroke="#652b20" stroke-width="5" stroke-linecap="round"/><path d="M80 71c-5-12-25-9-25 5 0 11 25 27 25 27s25-16 25-27c0-14-20-17-25-5Z" fill="#D96779"/></svg></div>
+          <div class="brand-kicker"><span></span> COM SABOR E CARINHO <span></span></div>
+          <h1 id="hero-title"><span class="hero-brand-name">Araújo Viana</span><span class="hero-brand-subtitle">LANCHONETE</span></h1>
+          <h2>Salgados, tortas e bolos <span>para adoçar seu dia.</span></h2>
+          <p>Uma pausa gostosa, um encontro especial ou aquela vontade de comer algo delicioso. Todo momento merece um sabor inesquecível.</p>
+          <div class="hero-actions"><a href="#cardapio" class="btn btn-cocoa btn-large">Conhecer o cardápio <span aria-hidden="true">↗</span></a><a href="#encomendas" class="btn btn-outline btn-large">Fazer encomenda</a></div>
+          <div class="hero-tagline"><span class="sparkle" aria-hidden="true">✦</span> Um pedacinho de carinho em cada sabor <span class="sparkle" aria-hidden="true">✦</span></div>
+        </div>
+        <div class="hero-gallery" aria-label="Fotos ilustrativas de salgados, torta e bolo">
+          <div class="hero-photo hero-photo-salgados"><img src="assets/salgados.jpg" alt="Salgados dourados servidos em um prato" fetchpriority="high"><span class="food-label">Salgados <span>♡</span></span></div>
+          <div class="hero-photo hero-photo-tortas"><img src="assets/tortas.jpg" alt="Fatia de torta salgada com recheio cremoso" fetchpriority="high"><span class="food-label">Tortas <span>♡</span></span></div>
+          <div class="hero-photo hero-photo-bolos"><img src="assets/bolos.jpg" alt="Bolo de chocolate com morangos" fetchpriority="high"><span class="food-label">Bolos <span>♡</span></span></div>
+        </div>
+        <div class="hero-lower"><span>♥</span> Do salgado ao docinho, aqui tem amor em cada detalhe <span>♥</span></div>
+      </div>
+      <div class="wave-bottom" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path fill="#fffdf9" d="M0 39C190 92 365 9 576 43c244 39 477 52 864-18v55H0Z"/></svg></div>
+    </section>
+
+    <section class="section categories" id="especialidades">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">FEITO PARA CADA VONTADE</span><h2>Nossas <em>delícias</em></h2><p>Seja para matar a fome ou deixar o dia mais doce, sempre existe uma opção especial.</p></div>
+        <div class="category-grid">
+          <a href="#cardapio" class="category-card" data-filter-link="salgados"><span class="category-image"><img src="assets/salgados.jpg" alt="Porção de salgados crocantes" loading="lazy"></span><span class="category-copy"><span class="category-eyebrow">PARA AQUELE LANCHINHO</span><strong>Salgados</strong><span>Crocantes, douradinhos e cheios de sabor.</span><span class="category-cta">Explorar salgados <b>↗</b></span></span></a>
+          <a href="#cardapio" class="category-card" data-filter-link="tortas"><span class="category-image"><img src="assets/tortas.jpg" alt="Fatia de torta salgada" loading="lazy"></span><span class="category-copy"><span class="category-eyebrow">UMA FATIA DE FELICIDADE</span><strong>Tortas</strong><span>O sabor perfeito para dividir bons momentos.</span><span class="category-cta">Explorar tortas <b>↗</b></span></span></a>
+          <a href="#cardapio" class="category-card" data-filter-link="bolos"><span class="category-image"><img src="assets/bolos.jpg" alt="Bolo de chocolate confeitado" loading="lazy"></span><span class="category-copy"><span class="category-eyebrow">PARA ADOÇAR O SEU DIA</span><strong>Bolos</strong><span>Uma dose extra de doçura e carinho.</span><span class="category-cta">Explorar bolos <b>↗</b></span></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="cardapio">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">ESCOLHA SEUS FAVORITOS</span><h2>Um cardápio cheio de <em>carinho</em></h2><p>Selecione suas delícias, monte sua lista e envie uma mensagem para consultar seu pedido.</p></div>
+        <div class="menu-notice"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg> Cardápio de demonstração: produtos e disponibilidade devem ser confirmados pela lanchonete. Valores sob consulta.</div>
+        <div class="filter-tabs" role="group" aria-label="Filtrar o cardápio"><button class="filter-btn is-selected" type="button" data-filter="todos" aria-pressed="true">Todas as delícias</button><button class="filter-btn" type="button" data-filter="salgados" aria-pressed="false">🥟 Salgados</button><button class="filter-btn" type="button" data-filter="tortas" aria-pressed="false">🥧 Tortas</button><button class="filter-btn" type="button" data-filter="bolos" aria-pressed="false">🎂 Bolos</button></div>
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        <div class="menu-bottom"><span>Não encontrou o que procura? Monte uma mensagem com sua preferência.</span><button class="btn btn-cocoa" type="button" data-open-cart>Montar meu pedido <span aria-hidden="true">↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-illustration"><div class="about-arch"><img src="assets/bolos.jpg" alt="Bolo confeitado com chocolate e morangos" loading="lazy"></div><span class="about-sticker">feito com <strong>♥ carinho</strong></span><span class="sparkles sparkles-a">✳</span><span class="sparkles sparkles-b">✧</span></div>
+        <div class="about-content"><span class="eyebrow">NOSSA ESSÊNCIA</span><h2>Mais do que um lanche, um <em>momento feliz.</em></h2><p>A Araújo Viana nasceu como uma ideia simples: criar um cantinho onde sabores doces e salgados se encontram em uma experiência acolhedora.</p><p>Uma marca pensada para quem ama boas conversas, um lanche caprichado e aquele toque especial de carinho.</p><div class="about-points"><div><span>♡</span><p><strong>Sabores para todo momento</strong><small>Do lanche da tarde à celebração especial.</small></p></div><div><span>✦</span><p><strong>Jeito leve e acolhedor</strong><small>Uma experiência gostosa desde a escolha.</small></p></div></div><a href="#encomendas" class="link-arrow">Conheça a ideia de encomendas <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section steps-section" id="como-pedir"><div class="container"><div class="section-heading centered"><span class="eyebrow">É SIMPLES ASSIM</span><h2>Seu pedido em <em>3 passinhos</em></h2></div><div class="steps-grid"><div class="step"><div class="step-number">01</div><div class="step-icon">♥</div><h3>Escolha suas delícias</h3><p>Explore as opções e descubra o que combina com a sua vontade.</p></div><div class="step"><div class="step-number">02</div><div class="step-icon">✎</div><h3>Monte sua lista</h3><p>Adicione os itens e informe as quantidades que você deseja.</p></div><div class="step"><div class="step-number">03</div><div class="step-icon">✉</div><h3>Envie sua mensagem</h3><p>Compartilhe pelo WhatsApp para consultar os detalhes do pedido.</p></div></div></div></section>
+
+    <section class="order-section" id="encomendas"><div class="container"><div class="order-panel"><span class="order-decoration">♡</span><div class="order-copy"><span class="eyebrow light">ALGO ESPECIAL PARA VOCÊ</span><h2>Momentos especiais merecem <em>sabores especiais.</em></h2><p>Quer saber mais sobre opções para uma comemoração ou encontro? Monte sua lista de desejos e consulte a disponibilidade.</p><button type="button" class="btn btn-light btn-large" data-open-cart>Quero montar meu pedido <span aria-hidden="true">↗</span></button></div><div class="order-picture"><img src="assets/bolos.jpg" alt="Bolo de chocolate para ocasiões especiais" loading="lazy"><span class="order-badge">feito com amor <b>♥</b></span></div></div></div></section>
+  </main>
+
+  <footer class="footer" id="contato"><div class="container footer-inner"><div class="footer-brand"><div class="footer-wordmark">Araújo Viana <span>♡</span></div><small>LANCHONETE</small><p>Um pedacinho de carinho em cada sabor.</p></div><div class="footer-links"><strong>Navegue por aqui</strong><a href="#inicio">Início</a><a href="#cardapio">Cardápio</a><a href="#sobre">Nossa essência</a><a href="#encomendas">Encomendas</a></div><div class="footer-contact"><strong>Vamos adoçar seu dia?</strong><p>Monte sua lista e compartilhe a mensagem pelo WhatsApp.</p><button class="btn btn-cocoa" type="button" data-open-cart>Abrir meu pedido <span aria-hidden="true">↗</span></button></div></div><div class="container footer-bottom"><span>© <span id="current-year"></span> Araújo Viana Lanchonete. Site demonstrativo.</span><span>Feito com ♡ e uma pitada de criatividade</span></div></footer>
+
+  <div class="floating-cart" id="floating-cart" hidden><button type="button" data-open-cart aria-label="Abrir meu pedido"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10l2 12H5L7 8Zm0 0a5 5 0 0 1 10 0"/></svg> Meu pedido <span data-cart-count>0</span></button></div>
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true" tabindex="-1">
+    <div class="cart-header"><div><span class="eyebrow">FEITO COM CARINHO</span><h2 id="cart-title">Meu pedido <span>♡</span></h2></div><button type="button" class="icon-close" id="close-cart" aria-label="Fechar pedido">×</button></div>
+    <div class="cart-body"><div id="cart-items" aria-live="polite"></div><div class="cart-fields"><label for="client-name">Seu nome <small>(opcional)</small></label><input id="client-name" type="text" placeholder="Como podemos chamar você?" maxlength="70" autocomplete="name"><label for="cart-notes">Observações <small>(opcional)</small></label><textarea id="cart-notes" rows="3" maxlength="350" placeholder="Ex.: gostaria de saber opções e disponibilidade..."></textarea></div></div>
+    <div class="cart-footer"><p class="cart-notice" id="contact-notice">O número de WhatsApp da lanchonete ainda precisa ser configurado. Por enquanto, você pode compartilhar ou copiar a mensagem.</p><button class="btn btn-cocoa cart-checkout" type="button" id="checkout-btn">Compartilhar no WhatsApp <span>↗</span></button><button class="btn btn-outline cart-copy" type="button" id="copy-btn">Copiar mensagem do pedido</button></div>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
