@@ -11,9 +11,9 @@ const PRODUCTS = [
   { id: "coxinha", name: "Coxinha de frango", category: "salgados", description: "Coxinhas douradas e crocantes, perfeitas para um lanche caprichado.", image: "assets/coxinhas.jpg" },
   { id: "salgados-festa", name: "Salgados variados", category: "salgados", description: "Seleção com salgados variados, incluindo quibe, bolinha de queijo e salgados recheados.", image: "assets/salgados-sortidos.jpg" },
   { id: "torta-frango", name: "Torta cremosa de frango", category: "tortas", description: "Fatia de torta salgada com recheio cremoso de frango e legumes.", image: "assets/torta-frango.jpg" },
-  { id: "torta-encomenda", name: "Torta cremosa de palmito", category: "tortas", description: "Fatia de torta salgada com recheio de palmito, milho e legumes.", image: "assets/torta-palmito.jpg" },
-  { id: "bolo-chocolate", name: "Bolo de chocolate com morangos", category: "bolos", description: "Bolo de chocolate confeitado com granulado, cobertura cremosa e morangos.", image: "assets/bolo-chocolate.jpg" },
-  { id: "bolos-encomenda", name: "Bolo de morango com chantilly", category: "bolos", description: "Bolo claro decorado com chantilly, morangos frescos e raspas de chocolate.", image: "assets/bolo-morango.jpg" }
+  { id: "torta-encomenda", name: "Bolo de chocolate", category: "bolos", description: "Uma ideia chocolatuda para os apaixonados por doces.", image: "assets/torta-palmito.jpg" },
+  { id: "bolo-chocolate", name: "Bolo de morango com chantilly", category: "bolos", description: "Uma opção bonita e delicada para celebrar momentos especiais.", image: "assets/bolo-chocolate.jpg" },
+  { id: "bolos-encomenda", name: "Torta de palmito", category: "tortas", description: "Uma sugestão cremosa e delicada para variar os sabores.", image: "assets/bolo-morango.jpg" }
 ];
 
 const categoryNames = { salgados: "Salgados", tortas: "Tortas", bolos: "Bolos" };
