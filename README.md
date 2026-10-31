@@ -93,3 +93,6 @@ HTML5, CSS3 e JavaScript puro, sem necessidade de banco de dados ou instalação
 
 ## Crédito
 Desenvolvedor: Dev Kayko
+
+
+Atualização: os nomes dos produtos do cardápio foram ajustados para coincidir com as fotos exibidas no site.
