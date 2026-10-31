@@ -47,6 +47,17 @@ Se o número estiver vazio, a mensagem será aberta no WhatsApp sem um destinat�
 
 Edite a constante `PRODUCTS` no começo de `js/script.js`. Os 6 produtos atuais são demonstrativos. Antes de publicar o cardápio oficial, confirme nomes, disponibilidade, fotos, valores e opções de encomenda com o estabelecimento.
 
+### Fonte / logotipo igual ao modelo de referência
+
+A escrita **Araújo Viana** é uma arte original, não uma fonte comercial identificada. Para deixar o resultado fiel à imagem de referência, o site usa os arquivos de lettering com fundo transparente:
+
+- `assets/logo-araujo-viana.png` — logotipo completo com chapéu, nome e “LANCHONETE”, usado na abertura.
+- `assets/nome-araujo-viana.png` — nome com a grafia original, usado no cabeçalho e rodapé.
+
+Assim, a aparência da marca **não depende de fontes instaladas no computador ou carregadas da internet**. O restante da interface usa fontes da web com alternativas locais.
+
+Caso já tenha publicado uma versão antiga no GitHub, envie os **dois PNGs novos**, substitua `index.html` e `css/style.css` por estas versões e confirme o commit. Em caso de cache, atualize o site com `Ctrl + F5`.
+
 ### Cores e aparência
 
 As regras visuais estão em `css/style.css`. As fotos ficam em `assets/` e podem ser trocadas por imagens reais, mantendo os nomes ou ajustando os caminhos no código.

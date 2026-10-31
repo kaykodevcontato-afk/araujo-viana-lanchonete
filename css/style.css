@@ -10,3 +10,18 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
 /* Mantém a mensagem rápida invisível enquanto não houver uma notificação. */
 .toast{visibility:hidden;opacity:0;pointer-events:none}.toast.show{visibility:visible;opacity:1}
+
+
+/* Identidade tipográfica corrigida – o nome usa a arte original enviada pelo cliente.
+   Em vez de uma fonte cursiva diferente (Great Vibes), usamos o lettering exato
+   da referência gráfica, preservado em PNG transparente para funcionar no GitHub Pages. */
+.brand-name-image{width:180px;height:auto;max-height:40px;object-fit:contain;object-position:left center}
+.brand-text small{margin-top:-2px;letter-spacing:.36em}
+.hero-logo-title{width:min(100%,790px);margin:0 auto 12px!important;display:block!important;line-height:1!important}
+.hero-logo-image{width:100%;height:auto;display:block;object-fit:contain}
+.hero h2{font-family:'DM Sans',Arial,sans-serif;font-size:clamp(30px,3.45vw,48px);font-weight:800;letter-spacing:-.034em;line-height:1.13;margin:0 0 7px}
+.hero-lead{color:#673527!important;font-family:'DM Sans',Arial,sans-serif;font-size:clamp(16px,2.0vw,24px)!important;font-weight:500;line-height:1.45!important;margin:0 0 12px!important}
+.footer-wordmark{display:flex;align-items:center;gap:8px}
+.footer-wordmark img{width:min(100%,265px);height:auto;object-fit:contain}
+@media(max-width:850px){.brand-name-image{width:164px}.hero-logo-title{width:min(100%,700px)}}
+@media(max-width:640px){.brand-name-image{width:145px}.brand-text small{font-size:8px;letter-spacing:.24em}.hero-logo-title{width:100%;margin:0 auto 10px!important}.hero h2{font-size:clamp(25px,7.2vw,34px)}.hero-lead{font-size:15px!important;line-height:1.4!important}.footer-wordmark img{width:200px}}
