@@ -67,15 +67,16 @@ As regras visuais estão em `css/style.css`. As fotos ficam em `assets/` e podem
 ```text
 araujo-viana-lanchonete/
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
+├── css/style.css
+├── js/script.js
 ├── assets/
-│   ├── bolos.jpg
-│   ├── salgados.jpg
-│   ├── tortas.jpg
-│   └── favicon.svg
+│   ├── logo-araujo-viana.png
+│   ├── nome-araujo-viana.png
+│   ├── favicon.svg
+│   ├── salgados.jpg, tortas.jpg, bolos.jpg
+│   ├── coxinhas.jpg, salgados-sortidos.jpg
+│   ├── torta-frango.jpg, torta-palmito.jpg
+│   └── bolo-chocolate.jpg, bolo-morango.jpg
 ├── .nojekyll
 ├── .gitignore
 └── README.md
@@ -88,3 +89,7 @@ HTML5, CSS3 e JavaScript puro, sem necessidade de banco de dados ou instalação
 ---
 
 **Créditos:** projeto demonstrativo para Araújo Viana Lanchonete.
+
+
+## Crédito
+Desenvolvedor: Dev Kayko
